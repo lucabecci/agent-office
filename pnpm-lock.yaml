@@ -143,6 +143,9 @@ importers:
       '@tauri-apps/plugin-notification':
         specifier: ^2.0.0
         version: 2.3.3
+      '@types/node':
+        specifier: ^22.19.13
+        version: 22.19.13
       '@types/react':
         specifier: ^19.0.0
         version: 19.2.14
