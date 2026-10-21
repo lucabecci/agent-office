@@ -3,9 +3,7 @@ import tailwindAnimate from "tailwindcss-animate";
 
 const config: Config = {
   darkMode: "class",
-  content: [
-    "./src/**/*.{ts,tsx}",
-  ],
+  content: { relative: true, files: ["./src/**/*.{ts,tsx}"] },
   theme: {
     extend: {
       /* ── Terminal Design Tokens ──

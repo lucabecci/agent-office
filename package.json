@@ -16,7 +16,8 @@
     "build:desktop": "bash scripts/install-desktop.sh",
     "postinstall": "bash scripts/install-agents.sh || true",
     "agents:install": "bash scripts/install-agents.sh",
-    "agents:update": "bash scripts/install-agents.sh --update"
+    "agents:update": "bash scripts/install-agents.sh --update",
+    "test:playbook": "node --experimental-strip-types --test packages/shared/src/playbook.test.mjs"
   },
   "devDependencies": {
     "typescript": "^5.7.0"

@@ -20,3 +20,9 @@ apps/desktop/src-tauri/target
 apps/desktop/src-tauri/sidecar
 CONVENTIONS.md
 .codex-agent
+
+# Local-only dependencies and configuration
+node_modules/
+.env.*
+!.env.example
+*.local.json
